@@ -74,15 +74,20 @@ const images = [
   "assets/images/17.jpg",
   "assets/images/18.jpg",
   "assets/images/19.jpg",
-  "assets/images/20.jpg",
+  "assets/images/20.png",
   "assets/images/21.jpg",
   "assets/images/22.jpg",
-  "assets/images/23.jpg",
-  "assets/images/24.jpg",
-  "assets/images/25.jpg",
-  "assets/images/26.jpg",
-  "assets/images/27.jpg",
-  "assets/images/28.jpg"
+  "assets/images/23.png",
+  "assets/images/24.png",
+  "assets/images/25.png",
+  "assets/images/26.png",
+  "assets/images/27.png",
+  "assets/images/28.png",
+  "assets/images/29.jpg",
+  "assets/images/30.jpg",
+  "assets/images/31.jpg",
+  "assets/images/32.jpg",
+  "assets/images/33.jpg"
 ];
 
 const total = images.length;
@@ -94,7 +99,7 @@ images.forEach((src, i) => {
 
   img.src = src;
   div.appendChild(img);
-const radius = 780; // שליטה על מרחק
+const radius = 920; // שליטה על מרחק
 
 div.style.transform = `rotateY(${i * angle}deg) translateZ(${radius}px)`;
   carousel.appendChild(div);
